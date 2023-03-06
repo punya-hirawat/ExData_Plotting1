@@ -22,5 +22,5 @@ legend("topright", col=c("black", "red", "blue"), legend=c("Sub_metering_1","Sub
 
 
 ##Saving as png
-png("plot3.png", width=480, height=480)
+dev.copy(png, file="plot3.png", width=480, height=480)
 dev.off()

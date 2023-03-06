@@ -15,5 +15,5 @@ with(df, plot(Global_active_power~Date, type='l', ylab="Global Active Power (kil
 
 
 ##Saving as png
-png("plot2.png", width=480, height=480)
+dev.copy(png, file="plot2.png", width=480, height=480)
 dev.off()
